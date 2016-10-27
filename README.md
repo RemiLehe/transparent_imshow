@@ -28,7 +28,7 @@ transp_imshow( data2, cmap='Greys' )
 
 The code produces the following image:
 
-![image]('example.png')
+![image](./example.png)
 
 
 # Installation

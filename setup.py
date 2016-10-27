@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 long_description = open('./README.md').read()
 
 setup(
@@ -8,5 +8,5 @@ setup(
     long_description=long_description,
     maintainer='Remi Lehe',
     maintainer_email='remi.lehe@normalesup.org',
-    modules=['transparent_imshow.py'],
+    packages=find_packages('./'),
     install_requires=['matplotlib', 'numpy'] )

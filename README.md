@@ -30,6 +30,7 @@ The code produces the following image:
 
 ![image](./example.png)
 
+For more information on the function `transp_imshow`, see its docstring.
 
 # Installation
 

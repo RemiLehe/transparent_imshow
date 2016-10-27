@@ -1,6 +1,6 @@
 # Overview
 
-This is a simple wrapper along matplotlib's `imshow` function, which 
+This is a simple wrapper around matplotlib's `imshow` function, which 
 allows to produce images with **pixel-dependent transparency**. This can
 be particularly useful to **overlay** several images.
 
@@ -9,7 +9,7 @@ The solution implemented was inspired by [this post](http://stackoverflow.com/qu
 # Example
 
 Below is a simple example that shows how to overlay two arrays of data,
-by use the function `transp_imshow` which is provided in this package.
+by using the function `transp_imshow` which is provided in this package.
 ```python
 import numpy as np
 import matplotlib.pyplot as plt

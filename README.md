@@ -34,7 +34,7 @@ For more information on the function `transp_imshow`, see its docstring.
 
 # Installation
 
-In order to install this package, clone the code using `git`, and type:
+In order to install this package, type:
 ```
-python setup.py install
+pip install git+https://github.com/RemiLehe/transparent_imshow
 ```
